@@ -23,8 +23,9 @@ set $menu wofi --show drun -n
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output DP-1 resolution 1920x1080 position 0,0
-output HDMI-A-1 resolution 1360x768 position 1920,0
+# output DP-1 resolution 1360x768 position 0,0
+# output HDMI-A-1  resolution 1920x1080 position 1920,0
+output WL-1 resolution 1920x1080 position 0,0
 
 output * bg ~/.wallpaper/deadpool.png fill
 #
@@ -69,6 +70,10 @@ set $paste wl-paste
 # Read `man 5 sway-input` for more information about this section.
 input type:keyboard {
     xkb_layout "dvorakdev"
+    # xkb_layout "br"
+    # xkb_variant "abnt2"
+    # xkb_model "abnt2"
+
 }
 
 ### Borders
